@@ -37,7 +37,7 @@ post=getPost(page$id[1],token=fb_auth,n.comments=10,likes=T)
 comments=post$comments
 comments$comments_count
 ??getpost
-token1="EAACEdEose0cBAG6c1SpZCW0uy1W5G4AM11LoX6sKBh2kfFJxoQATeZBu8oXKEZAnnv8WFZBPHUn5uFpBy5NrnjfOkhDH9ibjfjyygTZB7ho9DPYqH1s3B0pKt0D562ZAVCQ9kO4WMg6yMCTT5dODBZCR8NStJVD2LI7N053PT8OZATf5TeH2ogn79s4PSa6EY4wZD"
+token1="XXXX"
 my_friends<-getFriends(token1,simplify = FALSE)
 View(my_friends)
 my_friends$gender
